@@ -1,11 +1,11 @@
 import java.util.Scanner;
-public class studentdata{
+public class prac{
     public static void main(String[ ] args){
         Scanner scanner = new Scanner(System.in);
         System.out.println("__________Welcome__________");
-        System.out.println("Enter Your Name: ");
-        String Name = scanner();
-        System.out.println("Hello, "+ Name + "How can we help you today!");
+        System.out.println("Enter Your name: ");
+        String name = scanner.nextLine();
+        System.out.println("Hello, "+ name + "How can we help you today");
         scanner.close();
     }
 }
