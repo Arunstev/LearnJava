@@ -1,4 +1,4 @@
-public class findgene{
+public class FindGene{
     public String FindGeneandTest(String dna){
         String result = "";
     //find the start occurrence of gene.
@@ -8,10 +8,14 @@ public class findgene{
         
         return result;
     }
-    public void testgene(){
+    public void testGene(){
         String dna = "ATGCGTCTTGCTATCTCTTAATCT";
         System.out.println("DNA is" + dna );
         String gene = FindGeneandTest(dna);
         System.out.println("Gene is " + gene);
+    }
+    public static void main(String [] args){
+        FindGene fg = new FindGene()
+        fg.testGene();
     }
 }
