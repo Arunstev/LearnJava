@@ -15,7 +15,7 @@ public class FindGene{
         System.out.println("Gene is " + gene);
     }
     public static void main(String [] args){
-        FindGene fg = new FindGene()
+        FindGene fg = new FindGene();
         fg.testGene();
     }
 }
