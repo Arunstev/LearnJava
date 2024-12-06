@@ -9,7 +9,7 @@ public class findgene{
         return result;
     }
     public void testgene(){
-        String dna = "ATGCGTCTTGCTATCTCTTAATCT"
+        String dna = "ATGCGTCTTGCTATCTCTTAATCT";
         System.out.println("DNA is" + dna );
         String gene = FindGeneandTest(dna);
         System.out.println("Gene is " + gene);
