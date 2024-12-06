@@ -1,5 +1,5 @@
 public class findgene{
-    public String fineGene(String dna){
+    public String FindGeneandTest(String dna){
         String result = "";
     //find the start occurrence of gene.
         int startIndex = dna.indexOf("ATG");
